@@ -57,27 +57,4 @@ function calculateInsurance(a, b, c, d){
 	
 }
 
-/*     ---------------------------- jasmine bonus point;
 
-function calculateInsurancePerCountry(car, age, country){
-
-		if (country == 0) {
-
-		var insurance = Math.round(car * 100 / age + 50);
-
-		}else if(country == 1){
-
-		var insurance = Math.round(car * 120 / age + 100);
-	
-		}else{
-		
-		let agePlus = Number(age) + 3;
-		var insurance = Math.round(car * 150 / agePlus + 50);
-		
-		}
-
-		return;	
-}
-
-
-console.log(calculateInsurancePerCountry);*/

@@ -8,8 +8,6 @@ for (let i = 0; i < teamMembers.length ; i++) {
 	show(teamMembers[i], i);
 
 
-
-
 }
 
 
