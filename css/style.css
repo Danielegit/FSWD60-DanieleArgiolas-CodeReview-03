@@ -6,7 +6,8 @@ header {
   height: 180px;
   justify-content: space-between;
   padding-right: 20px;
-  align-items: center; }
+  align-items: center;
+  background-color: #FFF3F3; }
   header div {
     width: 60%; }
     header div img {
