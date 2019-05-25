@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<script>
+		
+		var c = 0;
+		var d = 100;
+		var b = 30;
+
+calculateInsurance(b, c, d);
+
+
+
+function calculateInsurance(b, c, d){
+
+    if (c == 0) {
+
+        var insurance = Math.round(Number(d) * 100 / Number(b)  + 50);
+
+    }else if(c == 1){
+
+        var insurance = Math.round(Number(d)  * 120 / Number(b)  + 100);
+    
+    }else{
+        
+        let bplus = Number(b) + 3;
+        var insurance = Math.round(Number(d) * 150 / bplus + 50);
+       
+        
+    }
+
+   
+
+    return insurance;
+}
+
+ 
+	</script>
+	
+</body>
+</html>
